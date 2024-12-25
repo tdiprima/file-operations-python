@@ -1,4 +1,4 @@
-# Reads two text files and prints lines that are common to both files.
+# Reads two specified text files and prints the lines that are common to both.
 def read_file(file_path):
     """
     Function to read a file and return a set of its lines

@@ -1,4 +1,5 @@
-# Calculates the SHA-1 checksums of all the files in two directories, then compares these checksums to identify and print out any matching files across these directories.
+# Calculates and compares SHA-1 checksums of files in two specified directories and prints out matching files,
+# potentially for further removal operations.
 
 import os
 import subprocess

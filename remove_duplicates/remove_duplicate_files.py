@@ -1,4 +1,5 @@
-# Calculates the SHA-1 hash of files in a given directory, and removes any duplicate files (based on their SHA-1 hash).
+# Calculates SHA1 hashes of all files in a specified directory (including subdirectories), and
+# removes any duplicates by comparing these hashes.
 import os
 import hashlib
 
