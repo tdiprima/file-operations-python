@@ -1,7 +1,7 @@
 """
+Loads data from a Numpy storage file and prints out the file data.
 https://www.sharpsightlabs.com/blog/numpy-load/
-Load Numpy arrays from Numpy storage files
-Copyright 2021 Astro Pup
+Copyright 2021 Tammy DiPrima
 """
 from numpy import load
 

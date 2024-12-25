@@ -1,6 +1,4 @@
-# Loop through the files in two directories, calculate the SHA-1 checksum
-# (or any other checksum you prefer) using the subprocess module to execute
-# the shasum command, and then compare the checksums to find matches.
+# Calculates the SHA-1 checksums of all the files in two directories, then compares these checksums to identify and print out any matching files across these directories.
 
 import os
 import subprocess

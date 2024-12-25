@@ -1,3 +1,4 @@
+# Updates the 'patch_w' and 'patch_h' values of the JSON object in the first line of a CSV file, and writes the updated content into a new CSV file.
 import json
 import os
 

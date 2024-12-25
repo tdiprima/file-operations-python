@@ -1,4 +1,4 @@
-# Read a file, search each line using a regular expression pattern, and replace the matched pattern with an empty string
+# Reads a file, then uses a regular expression to remove a numeric list numbering (numbers followed by a period and a space at the beginning of each line), and prints out the unnumbered lines.
 import re
 
 

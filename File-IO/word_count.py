@@ -1,5 +1,4 @@
-# creating variable to store the
-# number of words
+# Reads a text file ('SampleFile.txt'), then counts and prints the total number of non-numeric words in that file.
 number_of_words = 0
 
 # Opening our text file in read only

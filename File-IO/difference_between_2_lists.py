@@ -1,6 +1,6 @@
-#!/usr/bin/env python3
-
-"""Python code to get difference of two lists.
+"""
+Calculates and prints the symmetric difference (elements present in one list but not the other and vice versa)
+between two predefined lists.
 https://www.geeksforgeeks.org/python-difference-two-lists/
 """
 

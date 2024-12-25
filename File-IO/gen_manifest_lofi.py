@@ -1,3 +1,4 @@
+# A tool for processing two CSV files based on given arguments: it validates if both files exist, reads through the lists line by line, and prints specific formatted output corresponding to 'map' or 'segmentation' type, also, it offers an optional function to replace a substring in the lines of the first file.
 import os
 import sys
 

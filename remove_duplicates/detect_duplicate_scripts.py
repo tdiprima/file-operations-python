@@ -1,7 +1,6 @@
-import os
+# Scans a directory for duplicate Python files based on the MD5 hash of their content and reports any found duplicates.
 import hashlib
-import subprocess
-from difflib import SequenceMatcher
+import os
 
 # Directory containing Python files
 directory = "."
@@ -9,10 +8,12 @@ directory = "."
 # Dictionary to store file hashes and their paths
 file_hashes = {}
 
+
 # Function to calculate a hash of a file's content
 def calculate_hash(file_path):
     with open(file_path, "rb") as f:
         return hashlib.md5(f.read()).hexdigest()
+
 
 # Function to execute a Python script and capture its output
 # def execute_script(file_path):
@@ -52,6 +53,7 @@ def analyze_files(root_dir):
                 #     outputs[output] = file_path
 
     return duplicates
+
 
 # Main function
 if __name__ == "__main__":

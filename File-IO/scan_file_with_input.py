@@ -1,3 +1,4 @@
+# Removes certain eslint comments from a given file, checks if specific strings are present or not and counts the arguments in functions, as well as checking if lines start with a specified string.
 import os
 import sys
 

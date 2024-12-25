@@ -1,5 +1,4 @@
-# Lire et analyser JSON.
-# Read 2 sample JSON files and parse
+# Reads two JSON files, parses them, prints their content and filters objects with "Series": "I" in the second file, printing those filtered objects.
 import json
 
 

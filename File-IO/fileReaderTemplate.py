@@ -1,3 +1,4 @@
+# Provides various functions for file manipulation, including reading files, searching for specific content within files, modifying contents, renaming files in a directory, copying files from one directory to another, calculating word occurrences, and reading a file into a list.
 import linecache
 import os
 import sys

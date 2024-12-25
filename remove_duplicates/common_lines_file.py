@@ -1,4 +1,4 @@
-# Read the input file, remove duplicate lines, and save the unique lines to the output file.
+# Reads an input file, removes duplicate lines by adding them into a set, and writes the unique lines to an output file.
 def remove_duplicates(input_file, output_file):
     # Create a set to store unique lines
     unique_lines = set()

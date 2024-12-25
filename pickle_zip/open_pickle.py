@@ -1,6 +1,7 @@
-""" Read pickle file
+"""
+serializes several types of data into a pickle file, reads back the data, prints it, and then deletes the file.
 https://stackoverflow.com/questions/35067957/how-to-read-pickle-file#35068254
-Copyright 2021 Astro Pup
+Copyright 2021 Tammy DiPrima
 """
 import os
 import pickle
