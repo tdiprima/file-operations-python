@@ -1,5 +1,4 @@
 # Modifies JSON objects in text files, primarily changing first lines, replacing specified strings, and altering specific data ("old" to "new", "width" and "height" values, and "patch_w" and "patch_h" values).
-#!/usr/bin/python
 # https://bytes.com/topic/python/answers/870172-python-search-text-file-string-replace
 import fileinput
 import json
