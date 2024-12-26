@@ -1,4 +1,7 @@
-# Contains several functions that perform various operations on file data, such as scanning a file for a specific string, modifying file output, converting html references in file to JavaScript, removing JavaScript comments, slicing file data based on provided start and end strings, writing file contents on one line, finding multiple strings in a file, adding colourful JavaScript function comments, selecting some lines based on a search string, and cleaning matlab function comments.
+# Contains several functions that perform various operations on file data, such as scanning a file for a specific string,
+# modifying file output, converting html references in file to JavaScript, removing JavaScript comments, slicing file data
+# based on provided start and end strings, writing file contents on one line, finding multiple strings in a file, adding
+# colourful JavaScript function comments, selecting some lines based on a search string, and cleaning matlab function comments.
 import os
 import random
 import sys
