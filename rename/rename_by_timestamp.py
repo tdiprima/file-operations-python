@@ -18,4 +18,5 @@ for file in os.listdir("."):
         # KNOW BEFORE YOU GO!
         print(file, f"{short}_{file}")
 
-        # Rename file  # os.rename(file, f"{created}_{file}")
+        # Rename file
+        # os.rename(file, f"{created}_{file}")
